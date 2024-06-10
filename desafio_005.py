@@ -23,3 +23,16 @@ tri = n * 3
 rz = n * 1/2
 # resposta exercício 6
 print(' R- O número digitado foi {}, seu dobro é {}, seu triplo é {} e sua raiz é {: .0f}'.format(n, do, tri, rz), ', respectivamente !!!') 
+
+# Desenvolva um programa que laia a s duas notas de um aluno, calcule e mostre sua média 
+
+aluno2 = input('Digite o nome do aluno: ')
+nota_1 = int(input('Digite a nota_1: '))
+nota_2 = int(input('Digite a nota_2: '))
+soma = int(nota_1) + int(nota_2) 
+media = soma / 2
+
+print('A media das notas do aluno {} é {}'.format(aluno2,media ))
+
+
+ 
