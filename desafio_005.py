@@ -20,9 +20,9 @@ print('6- Escolha um número inteiro para descobrir o dobro, triplo e a raiz qua
 n = int(input('Digite um numero: '))
 do = n * 2
 tri = n * 3
-rz = n * 1/2
+rz = n ** (1/2)
 # resposta exercício 6
-print(' R- O número digitado foi {}, seu dobro é {}, seu triplo é {} e sua raiz é {: .0f}'.format(n, do, tri, rz), ', respectivamente !!!') 
+print(' R- O número digitado foi {}, \nseu dobro é {}, \nseu triplo é {} \nsua raiz é {: .0f}'.format(n, do, tri, rz), ' \nrespectivamente !!!') 
 
 # Desenvolva um programa que laia a s duas notas de um aluno, calcule e mostre sua média 
 
@@ -44,7 +44,7 @@ v1 = int(input('Digite um valor em metros: '))
 cen = int(v1 * 10)
 mili = int(v1 * 1000)
 # resposta do exercício 07
-print(' R- O valor digitado foi {}, seu valor em centímetros é {} cm e seu valor em milímetros é {} mm'.format(v1, cen, mili))
+print(' R- O valor digitado foi {}m \nseu valor em centímetros é {}cm \nseu valor em milímetros é {}mm'.format(v1, cen, mili))
 
 
  
