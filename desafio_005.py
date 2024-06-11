@@ -26,13 +26,25 @@ print(' R- O número digitado foi {}, seu dobro é {}, seu triplo é {} e sua ra
 
 # Desenvolva um programa que laia a s duas notas de um aluno, calcule e mostre sua média 
 
+print('7- Desenvolva um programa que laia a s duas notas de um aluno, calcule e mostre sua média ')
+
 aluno2 = input('Digite o nome do aluno: ')
 nota_1 = int(input('Digite a nota_1: '))
 nota_2 = int(input('Digite a nota_2: '))
 soma = int(nota_1) + int(nota_2) 
 media = soma / 2
+# resposta do exercício 07
+print(' R- A media das notas do aluno {} é {}'.format(aluno2,media ))
 
-print('A media das notas do aluno {} é {}'.format(aluno2,media ))
+# Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
+
+print('7- Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.')
+
+v1 = int(input('Digite um valor em metros: '))
+cen = int(v1 * 10)
+mili = int(v1 * 1000)
+# resposta do exercício 07
+print(' R- O valor digitado foi {}, seu valor em centímetros é {} cm e seu valor em milímetros é {} mm'.format(v1, cen, mili))
 
 
  
