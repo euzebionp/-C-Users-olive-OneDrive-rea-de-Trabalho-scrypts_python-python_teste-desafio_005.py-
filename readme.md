@@ -3,3 +3,5 @@
 # Adicionado nova branch 'alteracao_1'
 # Adicionado exercicio 07
 # retificado e acertado divergencias de cálculo
+# implementado loop
+
